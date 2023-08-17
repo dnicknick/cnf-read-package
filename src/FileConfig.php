@@ -23,4 +23,9 @@ class FileConfig
     {
         return \implode(DIRECTORY_SEPARATOR, [$this->filePath, $this->fileName]);
     }
+
+    public function buildFullPath(array $parts): string
+    {
+        return \implode(DIRECTORY_SEPARATOR, $parts);
+    }
 }
