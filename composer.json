@@ -1,7 +1,7 @@
 {
     "name": "ndybnov-hw03/cnf-read",
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "autoload": {
         "psr-4": {
             "NdybnovHw03\\CnfRead\\": "src/"
